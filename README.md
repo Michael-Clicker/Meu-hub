@@ -15,9 +15,10 @@ Uma aplicação web responsiva desenvolvida como centralizadora de links profiss
 
 Para ilustrar a evolução da interface, o projeto passou por uma reformulação completa de layout e proposta visual:
 
-| V1.0 - Versão Legado (Genérico) | V2.0 - Versão Atual (Terminal Hacker) |
+| V1.0 - Versão Legado (Padrão Linktree) | V2.0 - Versão Atual (Padrão Terminal) |
 | :---: | :---: |
-| <img src="assets/v1-legacy.png" width="450px" alt="Interface antiga clara e convencional"> | <img src="assets/v2-terminal.png" width="450px" alt="Nova interface escura simulando um terminal"> |
+| <img alt="v1-legado" src="https://github.com/user-attachments/assets/a1ad9ec2-5f88-4e6e-ae86-c53743a25d18" width="450px"/> | <img width="450" alt="v2-terminal" src="https://github.com/user-attachments/assets/dc670a00-c9da-446a-8d52-f4a145c8d932" />
+
 
 ## 🚀 Funcionalidades
 
