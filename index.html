@@ -1,92 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu-Hub | Michael Teixeira</title>
-	<link rel="stylesheet" href="normalize.css-master/normalize.css">
-	<link rel="stylesheet" type="text/css" href="style.css" media="all">
-</head>
-<body>
-  <header class="cabeçalho">
-    <div class="conteudo-cabeçalho">
-	  <div class="logo">
-	    <span class="codigo">&lt;</span>
-		<strong>Michael</strong><span class="dev">.dev</span>
-		<span class="codigo">/&gt;</span>
-	  </div>
-	  <nav aria-label="Navegação secundaria">
-	    <a href="https://wa.me/5511913218058" target="blank" class="nav-cabeçalho">Contato</a>
-	    <!--sugestão adicionar tema noturno-->
-	  </nav>
-	</div>  
-  </header>
-  <main class="container-principal">
-    <section class="cabeçalho-perfil">
-	  <div class="avatar">
-	    <img src="assets/michael.jpeg" alt="Imagem de Michael Teixeira">
-	  </div>
-	  <div class="introduçao">
-	   <h1>Michael Teixeira</h1>
-	    <p>Estudante de Analise e Desenvolvimento de Sistemas</p>
-	  </div>
-	  <div class="status">
-	    <span class="dot-pulse"></span><b>Atualmente estudando: Python & Maujor</b>
-	  </div>
-	</section>
-	<nav class="navegaçao-primaria">
-	  <ul class="lista-links">
-	    <li>
-		  <a href="br.linkidin.com"><strong>Linkedin</strong>
-		    <img class="redes" src="assets/linkedin-original.svg" alt="logo do Linkedin">
-		    <small><b>Conexões e carreira</b></small>
-		  </a>
-		</li>
-		<li>
-		  <a href="https://github.com/Michael-Clicker?tab=repositories" target="blank"><strong>github</strong>
-		    <img class="redes" src="assets/github-original.svg" alt="logo do Git hub">
-			<small><b>Repositórios e códigos</b></small>
-		  </a> 
-		</li>
-		<li>
-		  <a href="projeto-python.com"><strong>Projeto analisador de csv</strong>
-		    <span class="icone">#</span>
-			<small><b>Flask + Pandas (Em desenvolvimento)</b></small>
-		  </a>
-		</li>
-	  </ul>
-	</nav>
-	<hr>
-	<section class="habilidades">
-	  <h2>Tecnologias</h2>
-	  <div class="grade">
-	    <span>
-          <img class="linguagens" src="assets/python-original.svg" alt="Logo de Python"> 
-          <b>Python</b>
-      </span>
-      <span>
-        <img class="linguagens" src="assets/html5-original.svg" alt="Logo da HTML5">
-        <b>HTML</b>
-      </span>
-      <span>
-        <img class="linguagens" src="assets/css3-original.svg" alt="Logo da CSS3">
-        <b>CSS</b>
-      </span>
-      <span>
-        <img class="linguagens" src="assets/javascript-original.svg" alt="Logo de JavaScript">
-        <b>JavaScript</b>
-        <small>Em breve</small>
-      </span>
+    <link rel="stylesheet" href="normalize.css-master/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+  </head>
+  <body class="terminal">
+    <main class="container-split">
+
+      <!--LADO ESQUERDO: Perfil Fixo -->
+      <section class="perfil-sidebar">
+        <div class="avatar">
+          <img src="assets/michael.jpeg" alt="Imagem de Michael Teixeira">
+        </div>
+        <div class="introdução">
+          <h1><span class="prompt">&gt;</span> Michael Teixeira</h1>
+          <p class="subtitulo">Estudante de Análise e Desenvolvimento de Sistemas</p>
+        </div>
+        <div class="status">
+          <span class="dot-pulse"></span>
+          <span class="texto-status">Atualment Estudando: ["SQL", "JavaScript", "React"]</span>
+        </div>
+      </section>
+
+      <!--LADO DIREITO: Links e Tecnologias com Rolagem-->
+      <div class="conteudo-links" >
+        <nav class="navegação" aria-label="Links e Redes">
+          <h2 class="section-titulo">// core_links</h2>
+          <ul class="lista-links">
+            <li>
+              <a href="https://www.linkedin.com/in/michael-teixeira-b824262a8" target="_blank">
+              <span class="seta">-&gt;</span> LinkedIn <small>// conexões_e_carreira</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Michael-Clicker" target="_blank">
+              <span class="seta">-&gt</span> GitHub <small>// repositórios_e_códigos</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://top-amazon-books.streamlit.app/" target="_blank">
+              <span class="seta">-&gt;</span> Dashboard de dados <small>// python + streamlit</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Michael-Clicker/analisador-csv-flask" target="_blank">
+              <span class="seta">-&gt;</span> Analisador de CSV <small>// flask + pandas</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://michael-clicker.github.io/PharmaCalc/" target="_blank">
+              <span class="seta">-&gt;</span> PharmaCalc <small>// vanilla_js</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://michael-clicker.github.io/Controle-estoque-marcenaria/" target="_blank">
+              <span class="seta">-&gt;</span> Controle de Estoque <small>// localstorage</small>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Michael-Clicker/Calculadora-Segura" target="_blank">
+              <span class="seta">-&gt;</span> Calculadora Segura <small>// fastapi + jwt</small>
+              </a>
+          </li>
+          </ul>
+        </nav>
+
+        <section class="stack">
+          <h2 class="section-titulo">// tech_stack</h2>
+          <div class="grid">
+            <span class="tech-item">python.py</span>
+            <span class="tech-item">index.html</span>
+            <span class="tech-item">style.css</span>
+            <span class="tech-item">script.js</span>
+          </div>
+        </section>
+        <footer>
+          <p>Michael Teixeira &copy; 2026</p>
+        </footer>
       </div>
-	</section>
-  </main>	
-	<footer class="rodape">
-	  <p>Michael Teixeira</p>
-	  <p class="creditos">Fundamentos de HTML e CSS</p>
-	</footer>
-  <script>
-      console.log("%c Olá, Caro leitor curioso! 👋", "color: #2563eb; font-size: 20px; font-weight: bold;");
-      console.log("Este projeto foi desenvolvido do zero para me ajudar a centralizar minhas informações e demonstrar fundamentos de ADS.");
-      console.log("Destaque: HTML5 Semântico, CSS Puro e Acessibilidade.");
-  </script>
-</body>
+    </main>
+  </body>
 </html>
