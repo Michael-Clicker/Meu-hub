@@ -11,6 +11,14 @@ Uma aplicação web responsiva desenvolvida como centralizadora de links profiss
 ### [V1.0] - Versão Legado (Estrutura Inicial)
 * Primeira versão simplificada do agregador de links, utilizando um tema claro convencional e cartões estruturados básicos para direcionamento rápido às redes sociais.
 
+## 📷 Demonstração Visual (Antes vs. Depois)
+
+Para ilustrar a evolução da interface, o projeto passou por uma reformulação completa de layout e proposta visual:
+
+| V1.0 - Versão Legado (Genérico) | V2.0 - Versão Atual (Terminal Hacker) |
+| :---: | :---: |
+| <img src="assets/v1-legacy.png" width="450px" alt="Interface antiga clara e convencional"> | <img src="assets/v2-terminal.png" width="450px" alt="Nova interface escura simulando um terminal"> |
+
 ## 🚀 Funcionalidades
 
 * **Arquitetura Split-Screen Responsiva:** Layout dinâmico utilizando CSS Grid que divide a tela em uma barra lateral fixa de perfil (35%) e uma área rolável de conteúdo (65%) em desktops, adaptando-se para um fluxo vertical fluido em dispositivos móveis.
